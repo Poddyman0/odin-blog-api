@@ -1,0 +1,42 @@
+
+
+body {
+    font-family: 'Arial';
+    text-align: center;
+}
+
+  #loading {
+    display: none;
+    position: fixed;
+    top: 14vh;
+    left: 0;
+    width: 100vh;
+    height: 89vh;
+    background-color: rgba(255, 255, 255);
+    z-index: 9999;
+  }
+  
+  .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+  #displayDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .viewPost {
+    width: 30%;
+  }
+
+  .viewComment {
+    width: 30%;
+  }
+
